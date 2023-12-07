@@ -17,6 +17,7 @@ export default function RootLayout({
   const value = "This is a value";
 
   console.log(value);
+  console.log(value);
 
   return (
     <html lang="en">
