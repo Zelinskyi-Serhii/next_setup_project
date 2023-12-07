@@ -14,7 +14,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  console.log(children);
+  const value = "This is a value";
+
+  console.log(value);
 
   return (
     <html lang="en">
